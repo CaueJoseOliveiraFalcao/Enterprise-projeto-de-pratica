@@ -1,4 +1,4 @@
-* {
+header, main,body {
     font-family: 'Shippori Antique', sans-serif;
     box-sizing: border-box;
     margin: 0;
@@ -7,7 +7,7 @@
 
 }
 
-li,a,button {
+ header li,a,button {
     font-weight: 500;
     font-size: 16px;
     color: white;
@@ -62,7 +62,7 @@ header{
 
 }
 
-button{
+header button{
     padding:9px 25px;
     background-color: rgb(253, 253, 253);
     color: grey;
@@ -71,10 +71,21 @@ button{
     transition: all 0.3s ease 0s;
 }
 
-button:hover{
+header button:hover{
     background-color: black;
     color: white;
 }
+.butao{
+    border: none;
+    font-size: 34px;
+    margin-left: 58%;
+    margin-top: 2%;
+    transition: all 0.3s ease 0s;
+}
+.butao:hover{
+    font-size: 40px
+}
+
 
 @media  (max-width:1024px) {
     .nav_links {
@@ -86,6 +97,9 @@ button:hover{
         transition: all 0.3s ease 0s;
     }
     .cta{
+        display: none;
+    }
+    .div-max{
         display: none;
     }
     header{
@@ -111,6 +125,7 @@ button:hover{
     .ricos:active .line3{
         transform: rotate(45deg) translate(-5px, -7px);
     }
+    
 }
 
 @media (max-width : 549px) {
@@ -122,6 +137,51 @@ button:hover{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        paddin;
+        
+    }
+}
+.div-max{
+    padding: 30px 0px 0px 0px ;
+    display: flex;
+    width: 99vw;
+    justify-content: center;
+}
+.cards{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    align-content: center;
+    border-radius: 25px;
+    background-color: black;
+    width: 80vw;
+    padding: 3rem;
+    flex-direction: row;
+    
+}
+.card_all{
+    padding: 22px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color:grey;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+.card_h1{
+    padding: 20px;
+}
+.img_Cards{
+    height: 150px;
+    width: 100%;
+}
+
+@media (max-width:414px) {
+    .img_Cards{
+        height: 90px;
+        width: 100%;
     }
 }
