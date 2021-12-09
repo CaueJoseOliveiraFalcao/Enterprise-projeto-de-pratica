@@ -76,6 +76,7 @@ header button:hover{
     color: white;
 }
 .butao{
+    background-color:rgb(42, 43, 43) ;
     border: none;
     font-size: 34px;
     margin-left: 58%;
@@ -95,6 +96,9 @@ header button:hover{
         display: inline-flex;
         background-color: white;
         transition: all 0.3s ease 0s;
+    }
+    .nav_links_meia:hover{
+        color: rgb(42, 43, 43);
     }
     .cta{
         display: none;
@@ -140,22 +144,23 @@ header button:hover{
         
     }
 }
+
 .div-max{
     padding: 30px 0px 0px 0px ;
     display: flex;
-    width: 99vw;
+    width: 98vw;
     justify-content: center;
 }
 .cards{
     flex-wrap: wrap;
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-content: center;
     border-radius: 25px;
     background-color: black;
     width: 80vw;
-    padding: 3rem;
+    padding: 2rem;
     flex-direction: row;
     
 }
@@ -171,11 +176,14 @@ header button:hover{
     margin-top: 2rem;
     border-radius: 8px;
 }
+.card_all p {
+    padding: 0  ;
+}
 .card_h1{
-    padding: 20px;
+    padding: 0px;
 }
 .img_Cards{
-    height: 150px;
+    height: 165px;
     width: 100%;
 }
 
@@ -184,4 +192,9 @@ header button:hover{
         height: 90px;
         width: 100%;
     }
+}
+@media (max-width : 1440px) {
+    .cards{
+        justify-content: space-evenly;
+    }   
 }
