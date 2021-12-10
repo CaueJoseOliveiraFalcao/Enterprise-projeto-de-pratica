@@ -8,3 +8,11 @@ function ex(){
    y = document.getElementById("nao").style.display = 'flex';
    
 };
+
+function bleach_modal(){
+   u = document.getElementById("full").style.display = "flex"
+
+}
+function blech_modal_f(){
+   u = document.getElementById("full").style.display = "none"
+}
