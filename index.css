@@ -31,6 +31,7 @@ header{
     justify-content:center;
     list-style: none;
     align-items: center;
+    padding: 0;
 }
 .nav_links_media li{
     margin: 8rem;   
