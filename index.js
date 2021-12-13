@@ -1,10 +1,13 @@
 function bar(){
-   x = document.getElementById("yes").style.display = 'flex';
-   y = document.getElementById("nao").style.display = 'none';
+    document.getElementById("yes").style.display = 'flex';
+    document.getElementById("nao").style.display = 'none';
+    document.getElementById("rodape_div").style.display = "none";
+    
 };
 function ex(){
-   x = document.getElementById("yes").style.display = 'none';
-   y = document.getElementById("nao").style.display = 'flex';
+   document.getElementById("yes").style.display = 'none';
+   document.getElementById("nao").style.display = 'flex';
+   document.getElementById("rodape_div").style.display = 'flex';
 };
 function bleach_modal(){
    u = document.getElementById("full").style.display = "flex";

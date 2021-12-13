@@ -289,3 +289,34 @@ header button:hover{
     font-size: 8px;
 }
 }
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+
+}
+.butao_ulimo{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: yellow;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.butao_ulimo:hover{
+    background-color: black;
+    color: yellow;
+    border-radius: 8px;
+}
