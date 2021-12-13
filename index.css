@@ -204,43 +204,38 @@ header button:hover{
     position: fixed;
     display: none;
     background-color: rgba(0, 0, 0, 0.8);
-    width: 100vw;
+    
     top: 0;
-    bottom:0;
-    position:fixed;
+    bottom: 0;
     overflow-y:scroll;
-    overflow-x:hidden;
-    height: 100vh;
+    overflow-x: hidden;
+    
 }
 .carde{
-    display: inline-flex;
-    justify-content: center;
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
-    align-content: center;
+    align-content: stretch;
     flex-direction: column;
-    width: 100vw;
-    background-color:rgba(0, 0, 0, 0.1);
-    height: 100vh;}
+    
+    background-color: rgba(0, 0, 0, 0.1);
+    flex-wrap: nowrap;
+}
+    
 .txt{
     color: white;
-    padding: 0px 0px 40px 0px;
+    padding: 0px 0px 50px 0px;
 }
 .imagem_carde{
     width: 30%;
     border-radius: 15px;
 }
 .fechar{
-   
-    cursor: pointer;
-    margin-left: 70rem;
-    margin-top: 1rem;
-    width: 30px;
-    height: 30px;
-    font-size: 25px;
-    color: white;
+    margin-left: 50%;
+    margin-top: 2rem;
     background-color:rgba(0, 0, 0, 0.1);
     border-style: none;
-    transition: all 0.3s ease 0s;
+    transition: all 3s ease 0s;
 }
 .fechar:hover{
     font-size: 35px;
@@ -251,56 +246,35 @@ header button:hover{
     color: white;
     padding: 80px;
 }
-
 @media (max-width:1024px) {
     .imagem_carde{
-        width: 400px;
-    }
-    .fechar{
-        margin-left: 30rem;
-        margin-top: 2rem;
-    }
-    
-}
-@media (max-width:768px) {
-    .fechar{
-        margin-left: 20rem;
-        margin-top: 15rem;
-    }
-    
-}
-@media (max-width:425px) {
-    .imagem_carde{
-        width: 270px;
-    }
-    .fechar{
-        margin-left: 20rem;
-        margin-top: 43rem;
-    }
-    .txtx{
-        color: white;
-        padding: 80px;
-        font-size: 12px;
-    }
-    
-}
-@media (max-width:375px) {
-    .imagem_carde{
-        width: 270px;
-    }
-    .fechar{
-        margin-left: 19rem;
-        margin-top: 60rem;
+        width: 300px;
+        border-radius: 15px;
     }
     
 }
 
+@media (max-width:425px) {
+
+    .txtx{
+    color: white;
+    padding: 80px;
+    font-size: 12px;
+}
+}
+@media (max-width:375px) {
+
+    .txtx{
+    color: white;
+    padding: 80px;
+    font-size: 10px;
+}
+}
 @media (max-width:320px) {
-    .imagem_carde{
-        width: 270px;
-    }
-    .fechar{
-        margin-left: 15rem;
-        margin-top: 100rem;
-    }
+
+    .txtx{
+    color: white;
+    padding: 80px;
+    font-size: 8px;
+}
 }
