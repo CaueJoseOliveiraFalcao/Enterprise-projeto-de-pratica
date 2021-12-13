@@ -18,5 +18,10 @@ function html_modal(){
 function html_modal_f(){
    u = document.getElementById("html5").style.display = "none";
 };
-
+function css_modal(){
+   u = document.getElementById('css3').style.display = "flex"
+}
+function css_modal_f(){
+   u = document.getElementById('css3').style.display = "none"
+}
 
