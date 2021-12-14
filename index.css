@@ -210,7 +210,7 @@ header button:hover{
 
 @media (max-width:414px) {
     .img_Cards{
-        height: 90px;
+        height: 130px;
         width: 100%;
     }
 }
