@@ -3,11 +3,25 @@ header, main,body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(15, 15, 15);
+    background-color: #005DBA;
 
 }
+.cta button {
+    color: white;
+    border-radius: 1rem;
+    border-color: white;
+    background-color:transparent;
+    border-style: solid;
+    padding: 12px;
+}
+.cta a {
+    background-color: black;
+}
+.cta a button:hover{
+    background-color:#070069 ;
+}
 
- header li,a,button {
+ header li,a{
     font-weight: 500;
     font-size: 16px;
     color: white;
@@ -59,21 +73,14 @@ header{
 }
 
 .nav_links li a:hover{
-    color:rgb(64, 64, 64);
+    color:#070069;
 
 }
 
-header button{
-    padding:9px 25px;
-    background-color: rgb(253, 253, 253);
-    color: grey;
-    border: none;
-    border-radius: 50px;
-    transition: all 0.3s ease 0s;
-}
+
 
 header button:hover{
-    background-color: black;
+    background-color: #070069;
     color: white;
 }
 .butao{
@@ -161,7 +168,7 @@ header button:hover{
     justify-content: space-evenly;
     align-content: center;
     border-radius: 25px;
-    background-color: black;
+    background-color: #003D7A;
     width: 80vw;
     padding: 2rem;
     flex-direction: row;
@@ -181,8 +188,8 @@ header button:hover{
     transition: all 0.3s ease 0s;
 }
 .card_all:hover{
-    background-color:#0f02c7 ;
-    font-size: 14px;
+    background-color:#007DFA ;
+    font-size: 15.5px;
 
 }
 .card_all:active{
@@ -295,7 +302,7 @@ header button:hover{
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: yellow;
+    margin-bottom: 15rem;
     align-items: center;
     justify-content: center;
     align-content: center;
@@ -304,20 +311,23 @@ header button:hover{
     text-align: center;
 
 }
+.rodape h1 {
+    color: #0DFDDC;
+}
 .butao_ulimo{
     justify-content: center;
     align-content: center;
     align-items: center;
-    border-style: solid;
+    padding: 10px;
     border-radius: 8px;
-    background-color: yellow;
-    color: black;
+    border-style: solid;
+    color:  #0DFDDC;
     font-size: 30px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 .butao_ulimo:hover{
-    background-color: black;
-    color: yellow;
-    border-radius: 8px;
+    background-color: #070069;
+    
+   
 }
