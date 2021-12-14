@@ -94,7 +94,7 @@ header button:hover{
         display:none;
     }
     .nav_links_media{
-        display: inline-flex;
+        display: none;
         
         transition: all 0.3s ease 0s;
     }
@@ -175,13 +175,13 @@ header button:hover{
     justify-content: center;
     flex-direction: column;
     color: white;
-    background-color:grey;
+    background-color:#070069;
     margin-top: 2rem;
     border-radius: 8px;
     transition: all 0.3s ease 0s;
 }
 .card_all:hover{
-    background-color:#171717 ;
+    background-color:#0f02c7 ;
     font-size: 14px;
 
 }
@@ -189,6 +189,7 @@ header button:hover{
     background-color:#000000 ;
     
 }
+
 .card_all p {
     padding: 0  ;
 }
@@ -196,7 +197,7 @@ header button:hover{
     padding: 0px;
 }
 .img_Cards{
-    height: 165px;
+    height: 185px;
     width: 100%;
 }
 
