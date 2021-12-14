@@ -84,9 +84,10 @@ header button:hover{
     color: white;
 }
 .butao{
-    background-color:rgb(15, 15, 15) ;
+    background-color:transparent ;
     border: none;
     font-size: 34px;
+    color: white;
     margin-left: 58%;
     margin-top: 2%;
     transition: all 0.3s ease 0s;
